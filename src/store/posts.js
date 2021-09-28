@@ -1,7 +1,24 @@
-
-
 const state = {
-  posts: []
+  posts: [
+    {
+      id: 1,
+      title: 'Post 1',
+      category: 'politice',
+      details: 'This is post 1 detaisl'
+    },
+    {
+      id: 2,
+      title: 'Post 2',
+      category: 'Entertainment',
+      details: 'This is post 2 detaisl'
+    },
+    {
+      id: 3,
+      title: 'Post 3',
+      category: 'politice',
+      details: 'This is post 3 detaisl'
+    }
+  ]
 }
 
 const getters = {

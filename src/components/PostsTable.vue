@@ -5,8 +5,18 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
 export default {
   name: "PostsTable",
+  setup() {
+    let name = "Tauhidul";
+    let age = 25;
+
+    return {
+      name,
+      age,
+    };
+  },
 };
 </script>
 

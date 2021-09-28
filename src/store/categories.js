@@ -1,7 +1,18 @@
-
-
 const state = {
-  category: []
+  category: [
+    {
+      id: 1,
+      name: 'Category 1',
+    },
+    {
+      id: 2,
+      name: 'Category 2',
+    },
+    {
+      id: 3,
+      name: 'Category 3',
+    }
+  ]
 }
 
 const getters = {
@@ -33,7 +44,6 @@ const mutations = {
   removeCategory: (state, id) => {
     const index = state.category.findIndex(el => el.id === id);
     state.category.splice(index, 1);
-    // (state.category = state.category.filter(category => category.id !== id)),
   },
   updateCategory: (state, updCategory) => {
     const index = state.category.findIndex(category => category.id === updCategory.id)

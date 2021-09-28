@@ -5,8 +5,19 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from "vuex";
+
 export default {
   name: "CategoryTable",
+  setup() {
+    let name = "Tauhidul";
+    let age = 25;
+
+    return {
+      name,
+      age,
+    };
+  },
 };
 </script>
 
