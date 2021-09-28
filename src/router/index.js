@@ -1,5 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Posts from '../views/Posts.vue';
+import Categories from "../views/Categories.vue";
+
+import CategoryModal from '../components/CategoryModal.vue';
+import CategoryTable from "../components/CategoryTable.vue";
+
+import PostModal from '../components/PostModal';
+import PostTable from '../components/PostsTable.vue';
+
 
 const routes = [
   {
@@ -9,12 +17,29 @@ const routes = [
   },
   {
     path: '/category',
-    name: 'Category',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Categories.vue')
-  }
+    name: 'Categories',
+    component: Categories
+  },
+  {
+    path: '/categorymodal',
+    name: 'CategoryModal',
+    component: CategoryModal
+  },
+  {
+    path: '/categorytable',
+    name: 'CategoryTable',
+    component: CategoryTable
+  },
+  {
+    path: '/posttable',
+    name: 'PostTable',
+    component: PostTable
+  },
+  {
+    path: '/postmodal',
+    name: 'PostModal',
+    component: PostModal
+  },
 ]
 
 const router = createRouter({

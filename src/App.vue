@@ -1,7 +1,11 @@
 <template>
   <div id="nav">
-    <router-link to="/">Posts</router-link> |
-    <router-link to="/category">Categories</router-link>
+    <router-link to="/">All Posts</router-link> |
+    <router-link to="/category">All Categories</router-link> |
+    <router-link to="/posttable">post table</router-link> |
+    <router-link to="/postmodal">post modal</router-link> |
+    <router-link to="/categorytable">category table</router-link> |
+    <router-link to="/categorymodal">category modal </router-link>
   </div>
   <router-view />
 </template>

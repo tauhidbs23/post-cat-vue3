@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Categories</h3>
+    <h3>All Categories</h3>
     <p>name: {{ name }}</p>
     <p>age: {{ age }}</p>
   </div>

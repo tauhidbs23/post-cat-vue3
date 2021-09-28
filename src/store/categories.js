@@ -2,15 +2,15 @@ const state = {
   category: [
     {
       id: 1,
-      name: 'Category 1',
+      title: 'Category 1',
     },
     {
       id: 2,
-      name: 'Category 2',
+      title: 'Category 2',
     },
     {
       id: 3,
-      name: 'Category 3',
+      title: 'Category 3',
     }
   ]
 }

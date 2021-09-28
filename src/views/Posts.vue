@@ -1,12 +1,14 @@
 <template>
   <div>
-    <h3>Post</h3>
+    <h3>All Post</h3>
+    <button>create post</button>
   </div>
 </template>
 
 <script>
 import { mapGetters, mapActions } from "vuex";
 import { ref } from "vue";
+
 export default {
   name: "Posts",
   setup() {

@@ -1,6 +1,11 @@
 <template>
   <div>
     <h3>Category Modal</h3>
+    <form>
+      <label>Title</label>
+      <input type="text" required v-model="title" />
+    </form>
+    <p>title: {{ title }}</p>
   </div>
 </template>
 
@@ -10,12 +15,9 @@ import { ref } from "vue";
 export default {
   name: "CategoryModal",
   setup() {
-    let name = "Tauhidul";
-    let age = 25;
-
+    const title = ref("");
     return {
-      name,
-      age,
+      title,
     };
   },
 };

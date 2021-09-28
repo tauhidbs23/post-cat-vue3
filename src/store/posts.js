@@ -9,7 +9,7 @@ const state = {
     {
       id: 2,
       title: 'Post 2',
-      category: 'Entertainment',
+      category: 'entertainment',
       details: 'This is post 2 detaisl'
     },
     {
