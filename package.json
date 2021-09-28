@@ -9,7 +9,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-material": "^1.0.0-beta-15",
     "vue-router": "^4.0.0-0",
+    "vue3-material": "^1.0.8",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
